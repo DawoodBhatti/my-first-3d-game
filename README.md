@@ -4,6 +4,5 @@
 2. https://gameidea.org/2023/12/12/marching-cubes-algorithm/
 
 
-
-testing uploads...
+getting a basic 3d prototype working
 
