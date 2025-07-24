@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7jvwpssj7v4x"]
+
+[ext_resource type="Script" uid="uid://oq7bbca241re" path="res://levels/pyramid.gd" id="1_d3kid"]
+
+[node name="Pyramid" type="StaticBody3D"]
+script = ExtResource("1_d3kid")
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+skeleton = NodePath("../..")
