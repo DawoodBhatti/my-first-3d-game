@@ -22,7 +22,6 @@ func generate_pyramid():
 	st.add_vertex(base[0])
 	st.add_vertex(base[1])
 	st.add_vertex(base[2])
-	st.add_vertex(base[2])
 	st.add_vertex(base[3])
 	st.add_vertex(base[0])
 

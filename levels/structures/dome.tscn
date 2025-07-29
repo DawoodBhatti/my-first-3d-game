@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dpmpkxq2xic25"]
+
+[ext_resource type="Script" uid="uid://c0jsgdjoovxo0" path="res://levels/structures/dome.gd" id="1_rftl0"]
+
+[node name="spheredome" type="Node3D"]
+script = ExtResource("1_rftl0")
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+cast_shadow = 0
