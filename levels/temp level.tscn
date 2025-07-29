@@ -52,7 +52,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.5, -50.1979)
 [node name="TerrainManager" type="Node3D" parent="."]
 script = ExtResource("6_kpcct")
 terrain_scene = ExtResource("7_kpcct")
-forcefield_colour = Color(0.628457, 0.574173, 0.513011, 0.388235)
+terrain_width = 1000.0
+terrain_depth = 1000.0
+forcefield_colour = Color(0.73849, 0.533458, 0.376373, 1)
 
 [node name="TerrainRoot" type="Node3D" parent="TerrainManager"]
 
